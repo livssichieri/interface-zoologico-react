@@ -46,6 +46,8 @@ function FormAnimal() {
             .catch(error => {
                 console.error('Erro:', error);
             });
+
+            console.log(FormData);
     };
 
     useEffect(() => {
